@@ -3,7 +3,8 @@
 ## Problem Statement
 
 Binary Search Trees (BST) can often be an efficient and useful way to store and retrieve sorted data. However, the efficiency of these data trees relies heavily on how balanced a BST is. For example, searching through the BST on the left is much more efficient than searching through the BST on the right, despite both figures showing valid BST with the exact same elements.  
-![image](https://github.com/gab-conde/gator-avl/assets/108101811/2219e6e6-e137-4de5-8819-ab74fcb877cb)  
+
+![image](https://github.com/gab-conde/gator-avl/assets/108101811/36ce580a-9af9-465e-8615-f8e06ece0ed7)
 
 To avoid inefficient binary search trees, we use balanced Binary Search Trees.  A balanced BST has a balance factor of less than ±threshold, where the balance factor is the difference in heights of the left and right subtrees at any given tree node. One such balanced tree is an AVL tree that maintains a threshold of 1. As soon as a node in an AVL tree has a balance factor of +2/-2, “tree rotations” are performed to maintain balance in the tree.  
 
